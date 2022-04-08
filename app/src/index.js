@@ -5,6 +5,7 @@ const App = {
     web3: null,
     account: null,
     meta: null,
+    loading: false,
 
     start: async function () {
         const {web3} = this;
